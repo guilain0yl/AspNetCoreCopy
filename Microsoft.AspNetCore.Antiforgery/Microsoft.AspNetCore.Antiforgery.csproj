@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.DataProtection\Microsoft.AspNetCore.DataProtection.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Http.Abstractions\Microsoft.AspNetCore.Http.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Http.Extensions\Microsoft.AspNetCore.Http.Extensions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.WebUtilities\Microsoft.AspNetCore.WebUtilities.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.ObjectPool\Microsoft.Extensions.ObjectPool.csproj" />
+  </ItemGroup>
+
+</Project>

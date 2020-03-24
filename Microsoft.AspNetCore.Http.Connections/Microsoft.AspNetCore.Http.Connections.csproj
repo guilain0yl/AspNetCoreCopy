@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Principal" Version="4.3.0" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Authorization.Policy\Microsoft.AspNetCore.Authorization.Policy.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Hosting.Abstractions\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Http.Connections.Common\Microsoft.AspNetCore.Http.Connections.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Http\Microsoft.AspNetCore.Http.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Routing\Microsoft.AspNetCore.Routing.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.WebSockets\Microsoft.AspNetCore.WebSockets.csproj" />
+  </ItemGroup>
+
+</Project>

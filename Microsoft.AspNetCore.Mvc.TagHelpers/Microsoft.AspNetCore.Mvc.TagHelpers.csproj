@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Razor\Microsoft.AspNetCore.Mvc.Razor.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Routing.Abstractions\Microsoft.AspNetCore.Routing.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Caching.Memory\Microsoft.Extensions.Caching.Memory.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.FileSystemGlobbing\Microsoft.Extensions.FileSystemGlobbing.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Primitives\Microsoft.Extensions.Primitives.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Authentication.Abstractions\Microsoft.AspNetCore.Authentication.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Authentication\Microsoft.AspNetCore.Authentication.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Identity\Microsoft.AspNetCore.Identity.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.RazorPages\Microsoft.AspNetCore.Mvc.RazorPages.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc\Microsoft.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.StaticFiles\Microsoft.AspNetCore.StaticFiles.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Identity.Stores\Microsoft.Extensions.Identity.Stores.csproj" />
+  </ItemGroup>
+
+</Project>

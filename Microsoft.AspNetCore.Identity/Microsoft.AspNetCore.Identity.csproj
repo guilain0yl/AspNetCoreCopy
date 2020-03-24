@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Authentication.Cookies\Microsoft.AspNetCore.Authentication.Cookies.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Identity.Core\Microsoft.Extensions.Identity.Core.csproj" />
+  </ItemGroup>
+
+</Project>

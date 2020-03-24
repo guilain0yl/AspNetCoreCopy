@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.JSInterop" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Antiforgery\Microsoft.AspNetCore.Antiforgery.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Components.Authorization\Microsoft.AspNetCore.Components.Authorization.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Components.Web\Microsoft.AspNetCore.Components.Web.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.DataProtection.Extensions\Microsoft.AspNetCore.DataProtection.Extensions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Diagnostics.Abstractions\Microsoft.AspNetCore.Diagnostics.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Html.Abstractions\Microsoft.AspNetCore.Html.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Core\Microsoft.AspNetCore.Mvc.Core.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.DataAnnotations\Microsoft.AspNetCore.Mvc.DataAnnotations.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.WebEncoders\Microsoft.Extensions.WebEncoders.csproj" />
+  </ItemGroup>
+
+</Project>

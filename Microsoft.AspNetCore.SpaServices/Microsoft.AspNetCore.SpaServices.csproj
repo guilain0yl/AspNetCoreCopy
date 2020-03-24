@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="node_modules\unique-filename\.nyc_output\54942.json" />
+    <Content Include="node_modules\unique-filename\.nyc_output\54944.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="node_modules\.bin\acorn" />
+    <None Include="node_modules\.bin\acorn.cmd" />
+    <None Include="node_modules\.bin\atob" />
+    <None Include="node_modules\.bin\atob.cmd" />
+    <None Include="node_modules\.bin\errno" />
+    <None Include="node_modules\.bin\errno.cmd" />
+    <None Include="node_modules\.bin\import-local-fixture" />
+    <None Include="node_modules\.bin\import-local-fixture.cmd" />
+    <None Include="node_modules\.bin\json5" />
+    <None Include="node_modules\.bin\json5.cmd" />
+    <None Include="node_modules\.bin\miller-rabin" />
+    <None Include="node_modules\.bin\miller-rabin.cmd" />
+    <None Include="node_modules\.bin\mkdirp" />
+    <None Include="node_modules\.bin\mkdirp.cmd" />
+    <None Include="node_modules\.bin\rimraf" />
+    <None Include="node_modules\.bin\rimraf.cmd" />
+    <None Include="node_modules\.bin\semver" />
+    <None Include="node_modules\.bin\semver.cmd" />
+    <None Include="node_modules\.bin\sha.js" />
+    <None Include="node_modules\.bin\sha.js.cmd" />
+    <None Include="node_modules\.bin\terser" />
+    <None Include="node_modules\.bin\terser.cmd" />
+    <None Include="node_modules\.bin\tsc" />
+    <None Include="node_modules\.bin\tsc.cmd" />
+    <None Include="node_modules\.bin\tsserver" />
+    <None Include="node_modules\.bin\tsserver.cmd" />
+    <None Include="node_modules\.bin\webpack" />
+    <None Include="node_modules\.bin\webpack-cli" />
+    <None Include="node_modules\.bin\webpack-cli.cmd" />
+    <None Include="node_modules\.bin\webpack.cmd" />
+    <None Include="node_modules\.bin\which" />
+    <None Include="node_modules\.bin\which.cmd" />
+    <None Include="node_modules\events\.github\FUNDING.yml" />
+    <None Include="node_modules\fast-json-stable-stringify\.github\FUNDING.yml" />
+    <None Include="node_modules\ts-loader\.github\issue_template.md" />
+    <None Include="node_modules\vm-browserify\.github\FUNDING.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="node_modules\fsevents\node_modules\rc\node_modules\" />
+  </ItemGroup>
+
+</Project>

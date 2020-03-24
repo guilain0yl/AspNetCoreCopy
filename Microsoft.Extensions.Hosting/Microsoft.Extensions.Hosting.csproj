@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.CommandLine\Microsoft.Extensions.Configuration.CommandLine.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.EnvironmentVariables\Microsoft.Extensions.Configuration.EnvironmentVariables.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.UserSecrets\Microsoft.Extensions.Configuration.UserSecrets.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration\Microsoft.Extensions.Configuration.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Microsoft.Extensions.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.FileProviders.Physical\Microsoft.Extensions.FileProviders.Physical.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Hosting.Abstractions\Microsoft.Extensions.Hosting.Abstractions.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Console\Microsoft.Extensions.Logging.Console.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Debug\Microsoft.Extensions.Logging.Debug.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.EventLog\Microsoft.Extensions.Logging.EventLog.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.EventSource\Microsoft.Extensions.Logging.EventSource.csproj" />
+  </ItemGroup>
+
+</Project>

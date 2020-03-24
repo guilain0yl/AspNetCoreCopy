@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.ViewFeatures\Microsoft.AspNetCore.Mvc.ViewFeatures.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Razor.Runtime\Microsoft.AspNetCore.Razor.Runtime.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Caching.Memory\Microsoft.Extensions.Caching.Memory.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.FileProviders.Composite\Microsoft.Extensions.FileProviders.Composite.csproj" />
+  </ItemGroup>
+
+</Project>

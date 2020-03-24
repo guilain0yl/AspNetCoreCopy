@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="3.1.2" />
+    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Authentication.JwtBearer\Microsoft.AspNetCore.Authentication.JwtBearer.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Identity.EntityFrameworkCore\Microsoft.AspNetCore.Identity.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Http\Microsoft.Extensions.Http.csproj" />
+  </ItemGroup>
+
+</Project>

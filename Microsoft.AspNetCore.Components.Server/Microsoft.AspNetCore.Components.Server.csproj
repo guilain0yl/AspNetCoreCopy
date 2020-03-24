@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;MESSAGEPACK_INTERNAL;COMPONENTS_SERVER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BlazorPack\MessagePack\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.JSInterop" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.AspNetCore.Components.Authorization\Microsoft.AspNetCore.Components.Authorization.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.Components.Web\Microsoft.AspNetCore.Components.Web.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.DataProtection.Extensions\Microsoft.AspNetCore.DataProtection.Extensions.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.SignalR\Microsoft.AspNetCore.SignalR.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.StaticFiles\Microsoft.AspNetCore.StaticFiles.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Caching.Memory\Microsoft.Extensions.Caching.Memory.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Configuration.Binder\Microsoft.Extensions.Configuration.Binder.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.FileProviders.Composite\Microsoft.Extensions.FileProviders.Composite.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.FileProviders.Embedded\Microsoft.Extensions.FileProviders.Embedded.csproj" />
+  </ItemGroup>
+
+</Project>
